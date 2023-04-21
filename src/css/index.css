@@ -36,7 +36,7 @@
     text-align: left;
     padding: 6px 8px;
     color: #fff;
-    background-color: rgba(0, 0, 0, 0.85);
+    background-color: #f56a00;
     white-space: pre-line;
 }
 .bubble-left::before {
@@ -46,7 +46,7 @@
     content: '';
     width: 0;
     height: 0;
-    border-right: 5px solid rgba(0, 0, 0, 0.85);
+    border-right: 5px solid #f56a00;
     border-bottom: 5px solid transparent;
     border-left: 5px solid transparent;
     border-top: 5px solid transparent;
