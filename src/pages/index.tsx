@@ -121,6 +121,7 @@ const App: React.FC = () => {
     }
 
     const onFinish = () => {
+        debugger
         if (!myChatTxt) {
             return
         }
@@ -220,7 +221,7 @@ const App: React.FC = () => {
 
                 <Space.Compact style={{width: '100%'}}>
                     <TextArea value={myChatTxt} onChange={({ target: { value } })=>{setMyChatTxt(value)}} placeholder="请输入"/>
-                    <Button type="primary">发送</Button>
+                    <Button type="primary" onClick={onFinish}>发送</Button>
                 </Space.Compact>
 
             </Footer>
